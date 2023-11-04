@@ -1,0 +1,54 @@
+.light header{
+  background-image: linear-gradient(to right, var(--var-color) 0 100%);
+}
+.light #home{
+    background-image: linear-gradient(to right, var(--var-color) 0 100%);
+}
+
+.light * {
+  color: var(--var-color);
+}
+.light a:hover {
+  color: orange;
+}
+:root {
+  --p-color: #fff;
+  --oran-color: orange;
+  --var-color: #57b8ff;
+  --black-color: black;
+  --home-texts-p: #999;
+}
+.light #mode-btn img {
+  width: 28px;
+  border: none;
+  border: 1px solid var(--color-black);
+  border-radius: 50%;
+  padding: 2px;
+}
+.light .home-texts p {
+     color: var(--p-color) 
+}
+.light .btn-1 {
+    background-color: var(--color-black);
+}
+.light #team {
+    background-image: linear-gradient(var(--var-color) 0 100%);
+}
+.light .box p {
+ color: var(--p-color)
+}
+.light #shop  {
+    background-color: var(--home-texts-p);
+}
+.light .shop-texts p {
+    color: var(--p-color)
+}
+.light .fill-track {
+    fill: black; 
+}
+.light #pages {
+    background-color: var(--home-texts-p);
+}
+.light #pages h3 * {
+    color: var(--var-color)
+}
