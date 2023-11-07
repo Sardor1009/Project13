@@ -16,7 +16,7 @@ modeBtn.addEventListener("click", function () {
 //  or;
 const loading = document.getElementById("loading");
 
-const loadingDuration = 1000; // 2s
+const loadingDuration = 4000; // 2s
 
 setTimeout(() => {
   loading.classList.add("loading-none");
