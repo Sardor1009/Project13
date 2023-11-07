@@ -7,4 +7,18 @@ modeBtn.addEventListener("click", function () {
     this.firstElementChild.src = "images/light.svg";
   }
   document.body.classList.toggle("light");
-});
+ });
+//  const loading = document.getElementById("loading");
+
+// window.addEventListener("load", () => {
+//   loading.classList.add("loading-none");
+//  });
+//  or;
+const loading = document.getElementById("loading");
+
+const loadingDuration = 1000; // 2s
+
+setTimeout(() => {
+  loading.classList.add("loading-none");
+}, loadingDuration);
+ 
