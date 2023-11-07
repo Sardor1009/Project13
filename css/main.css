@@ -18,7 +18,12 @@
   --var-color: #57b8ff;
   --color-black: black;
 }
+main{
+  width: 100%;
+}
 header {
+  position: fixed;
+  width: 100%;
   background-image: linear-gradient(to right, black 0 50%, #57b8ff 50%);
 }
 .container {

@@ -40,7 +40,7 @@
 #contacts {
   background-image: url(../images/contacts.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
 }
 .contact-things img {
   display: flex;
