@@ -52,3 +52,9 @@
 .light #pages h3 * {
     color: var(--var-color)
 }
+.light .contacts * {
+  color:white;
+}
+.light .scale * {
+  color: white;
+}

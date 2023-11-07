@@ -5,6 +5,11 @@
     justify-content: center;
     padding-bottom: 136px;
   }
+  .scale-image {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 1120px) {
   .nav-things,
@@ -55,5 +60,11 @@
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
+  }
+}
+@media (max-width: 550px) {
+  .contact-input input,
+  .contact-input button {
+    font-size: 10px !important;
   }
 }

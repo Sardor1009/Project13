@@ -1,0 +1,32 @@
+:root {
+  --p-color: #fff;
+  --oran-color: orange;
+  --var-color: #57b8ff;
+  --color-black: black;
+  --color-contact-p: #555;
+  --contact-h2: #141820;
+  --scale-h4-color: #FDD04A;
+}
+#scale {
+    background-color: var(--scale-h4-color);
+}
+.scale h4 {
+  color: #222730;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 48px;
+  padding-top: 128px;
+  padding-bottom: 27px;
+}
+.scale p {
+  color: #555;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 16px;
+  padding-bottom: 44px;
+}
+.scale-image {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 130px;
+}

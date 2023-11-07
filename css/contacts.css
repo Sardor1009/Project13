@@ -1,0 +1,84 @@
+:root {
+  --p-color: #fff;
+  --oran-color: orange;
+  --var-color: #57b8ff;
+  --color-black: black;
+  --color-contact-p: #555;
+  --contact-h2: #141820;
+}
+.contact-things h2 {
+  color: var(--contact-h2);
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 129px;
+}
+.contact-things {
+  position: relative;
+  max-width: 746px;
+}
+
+.contact-things img {
+  position: absolute;
+  right: 300px;
+  bottom: -10px;
+}
+
+.contacts p {
+  max-width: 846px;
+  color: var(--color-contact-p);
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 50px;
+  padding-top: 35px;
+}
+#contacts {
+  background-image: url(../images/contacts.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact-things img {
+  display: flex;
+  align-items: end;
+}
+.contact-input {
+  max-width: 670px;
+  width:100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 135px;
+  gap: 0;
+  border-radius: 0;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-input input {
+  flex-grow: 1;
+  color: var(--color-black);
+  text-align: start
+  ;
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 21px 13px;
+  outline: none;
+  border: none;
+}
+.contact-input button {
+  color: var(--p-color);
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 18px;
+  background: var(--var-color);
+  padding: 21px 8px;
+  border: none;
+}
